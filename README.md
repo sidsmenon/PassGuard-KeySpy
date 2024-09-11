@@ -2,7 +2,7 @@
 
 ## Overview
 
-**PassGuard-KeySpy** is a Python-based application that combines two essential functionalities for security enthusiasts: a **Password Manager** and a **Keylogger**. The password manager allows users to securely store and retrieve passwords using hashing techniques, while the keylogger stealthily captures keystrokes and sends the logs via email, hidden from the user.
+**PassGuard-KeySpy** is a Python-based application that combines two essential functionalities for security enthusiasts: a **Password Manager** and a **Keylogger**. The password manager allows users to securely store and retrieve passwords using hashing techniques, while the keylogger stealthily captures keystrokes and sends the logs via email while being hidden from the user.
 
 **Important Note:** This project is for educational purposes only. Unauthorized use of keyloggers is illegal. Always ensure you have permission before using this software.
 
