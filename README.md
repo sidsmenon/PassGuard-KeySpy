@@ -17,7 +17,7 @@
 ### Keylogger:
 - Captures all keystrokes and logs them in a file (`log.txt`).
 - Automatically sends the keystroke logs to a predefined email after every 20 words.
-- Operates silently in the background, with print statements hidden from the user.
+- Operates silently in the background, with key logging activities hidden from the user.
 - Uses the **Pynput** library for capturing keyboard input.
 - Sends log data via email using **SMTP**.
 
