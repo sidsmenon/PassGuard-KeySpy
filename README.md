@@ -1,37 +1,29 @@
-# Keylogger
+# PassGuard-KeySpy
 
-This project is a basic keylogger tool written in Python. It utilizes the `pynput` library to listen to and record keyboard events. The recorded keystrokes are saved to a log file, and the tool can detect both alphanumeric and special keys.
+## Overview
+
+**PassGuard-KeySpy** is a Python-based application that combines two essential functionalities for security enthusiasts: a **Password Manager** and a **Keylogger**. The password manager allows users to securely store and retrieve passwords using hashing techniques, while the keylogger stealthily captures keystrokes and sends the logs via email, hidden from the user.
+
+**Important Note:** This project is for educational purposes only. Unauthorized use of keyloggers is illegal. Always ensure you have permission before using this software.
 
 ## Features
 
-- **Key Logging:** Capture and record keystrokes.
-- **Log File:** Save captured keystrokes to a text file.
-- **Console Output:** Print detected key events to the console.
+### Password Manager:
+- User-friendly interface built with **Tkinter** for managing passwords.
+- Stores passwords securely in an **SQLite database**.
+- **SHA-256 hashing** is applied to the passwords before storage for enhanced security.
+- Allows users to save and retrieve stored passwords from the database.
 
-## Requirements
+### Keylogger:
+- Captures all keystrokes and logs them in a file (`log.txt`).
+- Automatically sends the keystroke logs to a predefined email after every 20 words.
+- Operates silently in the background, with print statements hidden from the user.
+- Uses the **Pynput** library for capturing keyboard input.
+- Sends log data via email using **SMTP**.
 
-- Python 3.x
-- Required Module: `pynput`
+## Installation
 
-## Usage
+1. Clone this repository:
 
-1. **Install `pynput`:**
-   - Ensure the `pynput` library is installed. You can install it via pip:
-     ```bash
-     pip install pynput
-     ```
-
-2. **Run the Script:**
-   - Execute the Python script to start logging keystrokes.
-
-3. **View Logs:**
-   - Keystrokes will be saved to `log.txt` in the same directory as the script.
-   - Alphanumeric and special key presses will be displayed in the console.
-
-4. **Stop Logging:**
-   - Press the `Esc` key to stop the keylogger.
-
-## Note
-
-- This script should be used responsibly and only for ethical purposes.
-- Ensure you have permission to log keystrokes on the device
+   ```bash
+   git clone https://github.com/sid2787/PassGuard-KeySpy.git
