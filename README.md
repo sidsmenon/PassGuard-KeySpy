@@ -26,7 +26,7 @@
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/sid2787/PassGuard-KeySpy.git/
+   git clone https://github.com/sidsmenon/PassGuard-KeySpy.git/
 
 ## Execution
 
